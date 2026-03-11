@@ -9,7 +9,7 @@ for i in range(amount):
 print(spisok)
 print()
 
-summa = sum(spisok[0::2]) * (spisok[-1] if spisok else [])
+summa = sum(spisok[0::2]) * (spisok[-1] if spisok else 0)
 
 print(f'{spisok[0::2]} => {summa}')
 
