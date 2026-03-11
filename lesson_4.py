@@ -125,8 +125,8 @@
 #
 # print()
 # #
-# # number = 0
-# #
+# number = 0
+#
 # for number in nums:
 #     print(number, end=' ')
 #
