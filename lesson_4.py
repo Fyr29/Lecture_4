@@ -124,9 +124,9 @@
 #     print(nums[i], end=' ')
 #
 # print()
-#
-# number = 0
-#
+# #
+# # number = 0
+# #
 # for number in nums:
 #     print(number, end=' ')
 #
@@ -182,16 +182,16 @@
 
 ####
 # #
-# import random
+import random
 
 # print(random.randint(1, 10))
-# NUMS_SIZE = 10
-# numbers = []
-# #
-# for i in range(NUMS_SIZE):
-#     numbers.append(random.randint(1, 10))
+NUMS_SIZE = 10
+numbers = []
 #
-# print(numbers)
+for i in range(NUMS_SIZE):
+    numbers.append(random.randint(1, 10))
+
+print(numbers)
 
 # # append(item): додає елемент item до кінця списку
 # #
@@ -216,9 +216,9 @@
 # #
 # numbers.remove(2222)
 # print(numbers)
-
-# clear(): видалення всіх елементів зі списку
-
+#
+# # clear(): видалення всіх елементів зі списку
+#
 # numbers.clear()
 # print(numbers)
 
@@ -255,7 +255,7 @@
 # print(numbers_sorted)
 # print(numbers)
 
-# people = ["Tom", "bob", "alice", "Sam", "Bill"]
+people = ["Tom", "bob", "alice", "Sam", "Bill"]
 # v1
 # people.sort()  # меняет оригинал
 # print(people)
@@ -271,7 +271,7 @@
 #
 # numbers.reverse()
 # print(numbers)
-
+#
 # print(numbers[::-1])
 #
 # # copy(): копіює список
